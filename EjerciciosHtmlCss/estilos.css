@@ -3,11 +3,11 @@
 
 /*estilos header*/
 .header__nav {
-    background-color: rgba(25, 126, 0, 0.548);
-    padding: 0.1vw;
+    background-color: rgb(235, 235, 235);
+    margin:2vw;
     text-align: center;
     height: 8vw;
-    width: 100%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.288);
 }
 
 .header__nav__img {
@@ -22,36 +22,147 @@
 
 .header__nav__nombre-veterinaria {
     position: relative;
-    font-size: 3vw;
     right: 9vw;
     bottom: 1vw;
+    font-size: 3vw;
     font-family: 'Indie Flower', cursive;
 }
 
 .header__nav__nombre-veterinaria-complemento {
     position: relative;
-    font-size: 3vw;
     left: 10vw;
     bottom: 1vw;
+    font-size: 3vw;
     font-family: 'Indie Flower', cursive;
 }
 
+
 /*Estilos main*/
-.main__div__letrero--urgencias {
+.main__div__letrero--servicios--principales {
     background-color: rgba(255, 255, 255, 0.445);
     padding: 0.4vw;
     text-align: center;
     position: absolute;
+    top: 11vw;
     width: 100%;
     font-size: 1.5vw;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-radius: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main__div__img-imagen-principal {
+.main__span--oscurecido-video {
     width: 100%;
+    height: 55.6vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.486);
+
 }
+
+/*Estilos letras encima video*/
+.main__div--letras-encima-video{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    font-size: 2.4vw;
+    color:rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.main__div__div--letrero1 {
+    position:absolute;
+    top:8vw;
+    left:6vw;
+    width: 40vw;
+}
+
+.main__div__div--letrero1 img{
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+.main__div__div--letrero1 h2{
+    display: inline-block;
+}
+
+.main__div__div--letrero2 {
+    position:absolute;
+    top: 18vw;
+    left:8vw;
+    width: 40vw;
+}
+
+.main__div__div--letrero2 img{
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+.main__div__div--letrero2 h2{
+    display: inline-block;
+}
+
+.main__div__div--letrero3 {
+    position:absolute;
+    top: 28vw;
+    left:10vw;
+    width: 40vw;
+}
+
+.main__div__div--letrero3 img{
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+.main__div__div--letrero3 h2{
+    display: inline-block;
+}
+
+.main__div__div--letrero4 {
+    position:absolute;
+    top:38vW;
+    left:12vw;
+    width: 40vw;
+}
+
+.main__div__div--letrero4 img{
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+.main__div__div--letrero4 h2{
+    display: inline-block;
+}
+
+.main__div--img-adorno{
+    position: absolute;
+    width: 8vw;
+}
+
+.adorno1 {
+    left: 78vw;
+    top: 13vw;
+}
+
+.adorno2 {
+    left: 82vw;
+    top: 22vw;
+}
+
+.adorno3 {
+    left: 78vw;
+    top: 43vw;
+}
+
+.adorno4 {
+    left: 82vw;
+    top: 53vw;
+}
+
+.adorno5 {
+    left: 80vw;
+    top: 32vw;
+}
+
+
+/*Main nuestros servicios*/
 
 .main__div__nuestros-servicios {
     text-align: center;
