@@ -3,11 +3,12 @@
 
 /*estilos header*/
 .header__nav {
-    background-color: rgb(235, 235, 235);
-    margin:2vw;
+    background-color: #507C99;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     text-align: center;
     height: 8vw;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.288);
+    /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.288); */
 }
 
 .header__nav__img {
@@ -55,7 +56,6 @@
     height: 55.6vw;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.486);
-
 }
 
 /*Estilos letras encima video*/
@@ -166,16 +166,19 @@
 
 .main__div__nuestros-servicios {
     text-align: center;
-    color: rgb(45, 0, 97);
+    color: #507C99;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    margin: 5vw;
+    margin-top: 10vw;
 }
 
 .main__div--tarjetas {
     display: flex;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aquamarine;
-    margin-bottom: 5vw;
+    background-color: #507C99;
+    margin-bottom: 20vw;
     margin-left: 1vw;
     margin-right: 1vw;
     background-image: url("./public/huella.png");
@@ -185,6 +188,204 @@
 .main__div--tarjetas div {
     text-align: center;
     margin: 1vw;
-    background-color: rgba(0, 209, 199, 0.945);
+    background-color: #6cb5e6ec;
     border-radius: 10px;
 }
+
+
+/*mision y vision*/
+.valores-corporativos {
+    width: 100%;
+    height: 45vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./public/medicine-5003631_1280.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.valores-corporativos__filtro {
+    position: absolute;
+    background-color: #623199cb;
+    width: 100%;
+    height: 45vw;
+}
+
+.valores-corporativos__side {
+    width: 40vw;
+    height: 20vw;
+    margin-top: 5vw;
+    z-index: 4;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    text-align: center;
+}
+
+.valores-corporativos__img {
+    width: 20vw;
+    border-radius: 100px;
+}
+
+.valores-corporativos__h4 {
+    font-size: 2vw;
+    font-family: 'Mulish', sans-serif;
+    color: #E6C960;
+}
+
+.valores-corporativos__p {
+    text-align: justify;
+    font-size: 1.4vw;
+    font-family: 'Mulish', sans-serif;
+    color: antiquewhite;
+}
+
+
+/*pie de pagina*/
+
+.footer {
+    width: 100%;
+    height: 13vw;
+    background-color: #507C99;
+    color: #E6C960;
+}
+
+.footer__h6--gattti {
+    position: relative;
+    top: 2vw;
+    left: 4vw;
+    display: inline;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2vw;
+}
+
+.footer__div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+/*Modificando el scroll bar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:#f5f5f5 ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #623199;
+    border-radius: 30px;
+}
+
+/*Grid de imagenes*/
+
+.titulo-galeria__h2 {
+    text-align: center;
+    margin: 7vw;
+    color: #507C99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+}
+
+
+.grid-imagenes__grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /*grid-template-columns: 50% auto;  */
+    /*grid-template-rows: 250px 100px;  */
+    /*justify-content: flex-start;      */
+    background-color:  #623199;
+    margin: 2vw;
+    text-align: center;
+    border-radius: 19px;
+}
+
+
+.grid-imagenes__img {
+    width: 25vw;
+    height: 18vw;
+    object-fit: cover;
+    border:#d1d1d1 solid 0.8vw;
+    border-radius: 19px;
+    margin: 1vw;
+    transition: transform .2s;
+}
+
+/* .grid-imagenes__img:hover {
+    width: 32vw;
+    height: 25vw;
+    border:#E6C960 solid 0.8vw;
+} */
+
+
+.grid-imagenes__img:hover {
+    transform:  scale(1.5);
+}
+
+.grid-imagenes__img--izquierdo:hover {
+    transform: scale(1.5) translateX(50px);
+}
+
+.grid-imagenes__img--derecho:hover {
+    transform: scale(1.5) translateX(-50px);
+}
+
+
+/*
+.grid-imagenes__div--camaleon {
+    grid-column: 1/4;
+}
+*/
+
+/*
+.grid-imagenes__div--camaleon {
+    grid-row: 1/4;
+}
+*/
+
+/*
+.grid-imagenes__div--camaleon {
+    grid-area: 1 / 3 / 2 / 3; fila / columna / fila / columna
+}
+*/
+
+
+/*grid template areas*/
+
+
+/*
+.layout {
+    display: grid;
+    grid-template-areas:    'cabecera cabecera'
+                            'menu menu'
+                            'contenido lateral'
+                            'footer footer';
+    grid-template-rows: 20% 40% 50% auto;
+    grid-template-columns: 50% auto;
+}
+
+.caja1 {
+    grid-area: cabecera;
+}
+
+.caja2 {
+    grid-area: menu;
+}
+
+.caja3 {
+    grid-area: contenido;
+}
+
+.caja4 {
+    grid-area: lateral;
+}
+
+.caja5 {
+    grid-area: footer;
+}
+*/
