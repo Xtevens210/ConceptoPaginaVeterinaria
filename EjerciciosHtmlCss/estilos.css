@@ -389,3 +389,72 @@
     grid-area: footer;
 }
 */
+
+/*Mapa*/
+.ubicacion__div {
+    margin: 4vw;
+    margin-top: 6vw;
+    /* background-color: aqua; */
+    position: relative;
+    height: 50vw;
+}
+
+.ubicacion__h2 {
+    text-align: center;
+    margin: 2vw;
+    color: #507C99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+}
+
+.ubicacion__div2 {
+    position: relative;
+    top: 7vw;
+    left: 5vw;
+    /*background-color: #E6C960;*/
+    width: 30vw;
+    height: 9vw;
+}
+
+.ubicacion__p {
+    color: #623199;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5vw;
+    /*background-color: #666666;*/
+}
+
+.ubicacion__img--icono{
+    width: 1vw;
+}
+
+
+.ubicacion__div--adorno2 {
+    top: -1vw;
+}
+
+.ubicacion__img {
+    position: absolute;
+    width: 30vw;
+    left: 5vw;
+    top: 23vw
+}
+
+.ubicacion__iframe {
+    position: absolute;
+    top: 11vw;
+    left: 48vw;
+    border-radius: 30px;
+    width: 40vw;
+}
+
+/*Contacto whatsapp*/
+.whatsapp__img  {
+    width: 5vw;
+    position: fixed;
+    top: 38vw;
+    right: 2vw;
+}
+
+.whatsapp__img:hover  {
+    transform:  scale(1.2);
+}
