@@ -485,9 +485,39 @@
 }
 
 
-/* @media screen and (max-width: 767px){
+@media screen and (max-width: 767px){
+    /*Mision y vision*/
+    .valores-corporativos {
+        display: grid;
+        grid-template-columns: auto;
+        height: 80vw;
+        background-size: 120vw;
+        height: 128vw;
+        border-radius: 10px;
+    }
 
-} */
+    .valores-corporativos__filtro {
+        height: 128vw;
+        border-radius: 10px;
+    }
+
+    .valores-corporativos__side {
+        width: 30rem;
+    }
+
+    .valores-corporativos__img {
+        width: 8rem;
+    }
+
+    .valores-corporativos__h4 {
+        font-size: 1.5rem;
+    }
+
+    .valores-corporativos__p {
+        font-size: 1rem;
+    }
+
+}
 
 
 @media screen and (max-width: 600px){
@@ -551,6 +581,37 @@
         grid-template-columns: auto auto;
         margin: 2%;
     }
+
+    /*Mision y vision*/
+    .valores-corporativos {
+        background-size: 120vw;
+        height: 50rem;
+        border-radius: 10px;
+    }
+
+    .valores-corporativos__filtro {
+        height: 50rem;
+        border-radius: 10px;
+    }
+
+    .valores-corporativos__side {
+        width: 20rem;
+    }
+
+    .valores-corporativos__img {
+        width: 8rem;
+    }
+
+    .valores-corporativos__h4 {
+        font-size: 1.5rem;
+    }
+
+    .valores-corporativos__p {
+        font-size: 1rem;
+    }
+
+}
+
 }
 @media screen and (max-width: 400px){
     /*Estilos header*/
@@ -641,7 +702,7 @@
     }
 
     /*Mision y vision*/
-    
+
 
 }
 
