@@ -11,34 +11,21 @@ body {
     margin-bottom: 2vw;
     text-align: center;
     height: 8vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.288); */
 }
 
 .header__nav__img {
-    position: relative;
-    top: 1vw;
     width: 6vw;
 }
 
 .header__nav h2{
-    display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.8rem;
 }
 
-.header__nav__nombre-veterinaria {
-    position: relative;
-    right: 9vw;
-    bottom: 1vw;
-    font-size: 3vw;
-    font-family: 'Indie Flower', cursive;
-}
-
-.header__nav__nombre-veterinaria-complemento {
-    position: relative;
-    left: 10vw;
-    bottom: 1vw;
-    font-size: 3vw;
-    font-family: 'Indie Flower', cursive;
-}
 
 
 /*Estilos main*/
@@ -74,7 +61,7 @@ body {
     position:absolute;
     top:8vw;
     left:6vw;
-    width: 40vw;
+    width: 65vw;
 }
 
 .main__div__div--letrero1 img{
@@ -90,7 +77,7 @@ body {
     position:absolute;
     top: 18vw;
     left:8vw;
-    width: 40vw;
+    width: 65vw;
 }
 
 .main__div__div--letrero2 img{
@@ -106,7 +93,7 @@ body {
     position:absolute;
     top: 28vw;
     left:10vw;
-    width: 40vw;
+    width: 50vw;
 }
 
 .main__div__div--letrero3 img{
@@ -122,7 +109,7 @@ body {
     position:absolute;
     top:38vW;
     left:12vw;
-    width: 40vw;
+    width: 50vw;
 }
 
 .main__div__div--letrero4 img{
@@ -132,36 +119,6 @@ body {
 
 .main__div__div--letrero4 h2{
     display: inline-block;
-}
-
-.main__div--img-adorno{
-    position: absolute;
-    width: 8vw;
-}
-
-.adorno1 {
-    left: 78vw;
-    top: 13vw;
-}
-
-.adorno2 {
-    left: 82vw;
-    top: 22vw;
-}
-
-.adorno3 {
-    left: 78vw;
-    top: 43vw;
-}
-
-.adorno4 {
-    left: 82vw;
-    top: 53vw;
-}
-
-.adorno5 {
-    left: 80vw;
-    top: 32vw;
 }
 
 
@@ -485,14 +442,53 @@ body {
     .header__nav__nombre-veterinaria-complemento {
         font-size: 3rem;
     }
+    /*Parte del video*/
+    .main__div__div--letrero1 h2{
+        font-size: 2.5rem;
+    }
+
+    .main__div__div--letrero1 img{
+        width: 2.1rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero2 h2{
+        font-size: 2.5rem;
+    }
+
+    .main__div__div--letrero2 img{
+        width: 2.1rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero3 h2{
+        font-size: 2.5rem;
+    }
+
+    .main__div__div--letrero3 img{
+        width: 2.1rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero4 h2{
+        font-size: 2.5rem;
+    }
+
+    .main__div__div--letrero4 img{
+        width: 2.1rem;
+        padding-right: 2vw;
+    }
 }
 
-@media screen and (max-width: 767px){
 
-}
+/* @media screen and (max-width: 767px){
+
+} */
+
+
 @media screen and (max-width: 600px){
     .header__nav {
-        height: 4.8rem;
+        height: 6rem;
     }
 
     .header__nav__img {
@@ -500,13 +496,66 @@ body {
     }
 
     .header__nav__nombre-veterinaria {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .header__nav__nombre-veterinaria-complemento {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
+
+    .main__div--tarjetas {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+        /*Parte del video*/
+        .main__div__div--letrero1 h2{
+            font-size: 2.2rem;
+        }
+    
+        .main__div__div--letrero1 img{
+            width: 1.8rem;
+            padding-right: 2vw;
+        }
+    
+        .main__div__div--letrero2 h2{
+            font-size: 2.2rem;
+        }
+    
+        .main__div__div--letrero2 img{
+            width: 1.8rem;
+            padding-right: 2vw;
+        }
+    
+        .main__div__div--letrero3 h2{
+            font-size: 2.2rem;
+        }
+    
+        .main__div__div--letrero3 img{
+            width: 1.8rem;
+            padding-right: 2vw;
+        }
+    
+        .main__div__div--letrero4 h2{
+            font-size: 2.2rem;
+        }
+    
+        .main__div__div--letrero4 img{
+            width: 1.8rem;
+            padding-right: 2vw;
+        }
 }
 @media screen and (max-width: 400px){
+    /*Estilos header*/
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 10rem;
+    }
 
+    .header__nav h2{
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.4rem;
+    }
 }
