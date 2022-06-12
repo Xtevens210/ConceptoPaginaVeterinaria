@@ -566,6 +566,7 @@
 /*Parte del video*/
     .main__div__div--letrero1{
         top: 0.8rem;
+        width: 15rem;
     }
 
     .main__div__div--letrero1 h2{
@@ -577,30 +578,45 @@
         padding-right: 2vw;
     }
 
+    .main__div__div--letrero2{
+        top: 3.0rem;
+        width: 18rem;
+    }
+
     .main__div__div--letrero2 h2{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .main__div__div--letrero2 img{
-        width: 1.8rem;
+        width: 1.5rem;
         padding-right: 2vw;
+    }
+
+    .main__div__div--letrero3{
+        top: 5.1rem;
+        width: 18rem;
     }
 
     .main__div__div--letrero3 h2{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .main__div__div--letrero3 img{
-        width: 1.8rem;
+        width: 1.5rem;
         padding-right: 2vw;
     }
 
+    .main__div__div--letrero4{
+        top: 7.3rem;
+        width: 18rem;
+    }
+
     .main__div__div--letrero4 h2{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .main__div__div--letrero4 img{
-        width: 1.8rem;
+        width: 1.5rem;
         padding-right: 2vw;
     }
 }
