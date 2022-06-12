@@ -138,7 +138,7 @@
     margin-bottom: 20vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    background-image: url("./public/huella.png");
+    background-image: url("./huella.png");
     background-size: 5vw;
 }
 
@@ -157,7 +157,7 @@
     margin-bottom: 5vw;
     display: flex;
     justify-content: space-around;
-    background-image: url("./public/medicine-5003631_1280.jpg");
+    background-image: url("./medicine-5003631_1280.jpg");
     background-size: 100vw;
     background-attachment: fixed;
 }
@@ -507,10 +507,6 @@
         font-size: 1.2rem;
     }
 
-    .main__div--tarjetas {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
 
     /*Parte del video*/
     .main__div__div--letrero1 h2{
@@ -547,6 +543,13 @@
     .main__div__div--letrero4 img{
         width: 1.8rem;
         padding-right: 2vw;
+    }
+
+    /*Nuestros servicios*/
+    .main__div--tarjetas {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 2%;
     }
 }
 @media screen and (max-width: 400px){
@@ -619,6 +622,27 @@
         width: 1.5rem;
         padding-right: 2vw;
     }
+
+    /*Nuestros servicios*/
+    .main__div__nuestros-servicios {
+        font-size: 1rem;
+    }
+
+    .main__div--tarjetas {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 2%;
+        background-size: 8rem;
+        border-radius: 10px;
+    }
+
+    .main__div--tarjetas div {
+        margin: 0.9rem
+    }
+
+    /*Mision y vision*/
+    
+
 }
 
 
