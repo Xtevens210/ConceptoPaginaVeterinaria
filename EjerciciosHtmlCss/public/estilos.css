@@ -512,42 +512,42 @@
         grid-template-columns: auto auto;
     }
 
-        /*Parte del video*/
-        .main__div__div--letrero1 h2{
-            font-size: 2.2rem;
-        }
-    
-        .main__div__div--letrero1 img{
-            width: 1.8rem;
-            padding-right: 2vw;
-        }
-    
-        .main__div__div--letrero2 h2{
-            font-size: 2.2rem;
-        }
-    
-        .main__div__div--letrero2 img{
-            width: 1.8rem;
-            padding-right: 2vw;
-        }
-    
-        .main__div__div--letrero3 h2{
-            font-size: 2.2rem;
-        }
-    
-        .main__div__div--letrero3 img{
-            width: 1.8rem;
-            padding-right: 2vw;
-        }
-    
-        .main__div__div--letrero4 h2{
-            font-size: 2.2rem;
-        }
-    
-        .main__div__div--letrero4 img{
-            width: 1.8rem;
-            padding-right: 2vw;
-        }
+    /*Parte del video*/
+    .main__div__div--letrero1 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero1 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero2 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero2 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero3 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero3 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero4 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero4 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
 }
 @media screen and (max-width: 400px){
     /*Estilos header*/
@@ -562,7 +562,53 @@
         font-family: 'Indie Flower', cursive;
         font-size: 1.4rem;
     }
+
+/*Parte del video*/
+    .main__div__div--letrero1{
+        top: 0.8rem;
+    }
+
+    .main__div__div--letrero1 h2{
+        font-size: 1.8rem;
+    }
+
+    .main__div__div--letrero1 img{
+        width: 1.5rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero2 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero2 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero3 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero3 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
+
+    .main__div__div--letrero4 h2{
+        font-size: 2.2rem;
+    }
+
+    .main__div__div--letrero4 img{
+        width: 1.8rem;
+        padding-right: 2vw;
+    }
 }
+
+
+
+
+
 
 
 
