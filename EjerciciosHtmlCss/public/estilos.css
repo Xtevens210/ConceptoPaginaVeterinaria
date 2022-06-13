@@ -482,6 +482,11 @@
     .main__div__nuestros-servicios {
         font-size: 1.5rem;
     }
+
+    /*Grid de imagenes*/
+    .titulo-galeria__h2 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -516,6 +521,25 @@
     .valores-corporativos__p {
         font-size: 1rem;
     }
+
+    /*Grid de imagenes*/
+    .grid-imagenes__grid {
+        grid-template-columns: auto auto;
+    }
+
+    .grid-imagenes__img {
+        width: 15rem;
+        height: 11rem;
+    }
+
+    .grid-imagenes__img--izquierdo:hover {
+        transform: scale(1.5) translateX(0px);
+    }
+
+    .grid-imagenes__img--derecho:hover {
+        transform: scale(1.5) translateX(0px);
+    }
+
 
 }
 
@@ -610,6 +634,27 @@
         font-size: 1rem;
     }
 
+    /*Grid de imagenes*/
+    .grid-imagenes__grid {
+        grid-template-columns: 100%;
+    }
+
+    .grid-imagenes__img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .grid-imagenes__img:hover {
+        transform:  scale(1.1);
+    }
+
+    .grid-imagenes__img--izquierdo:hover {
+        transform: scale(1.1) translateX(0px);
+    }
+
+    .grid-imagenes__img--derecho:hover {
+        transform: scale(1.1) translateX(0px);
+    }
 }
 
 
@@ -695,6 +740,7 @@
         margin: 2%;
         background-size: 8rem;
         border-radius: 10px;
+        margin-bottom: 5rem;
     }
 
     .main__div--tarjetas div {
@@ -702,6 +748,22 @@
     }
 
     /*Mision y vision*/
+    .valores-corporativos__img {
+        width: 8rem;
+    }
+
+    .valores-corporativos__h4 {
+        font-size: 1.1rem;
+    }
+
+    .valores-corporativos__p {
+        font-size: 0.9rem;
+    }
+
+    /*Grid de imagenes*/
+    .titulo-galeria__h2 {
+        font-size: 1rem;
+    }
 
 
 }
